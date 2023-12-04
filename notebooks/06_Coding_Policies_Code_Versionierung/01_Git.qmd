@@ -1,0 +1,143 @@
+---
+title: Code Versionierung
+subtitle: Git und GitHub
+author: Niels Hoppe \<[n.hoppe\@bergemann-hoehne.com](mailto:n.hoppe@bergemann-hoehne.com){.email}\>
+date: 2023-12-05
+#jupyter: python3
+format: revealjs
+---
+
+# Code Versionierung
+
+Warum überhaupt?
+
+## Naive Code Versionierung
+
+## Probleme und Lösungen
+
+
+# Begriffe
+
+## Version und Commit
+
+## Working Copy (Arbeitskopie)
+
+## Staging Area / Index
+
+## Repository
+
+## Remote
+
+
+# Wichtige Befehle
+
+## `git init`
+
+::: {.aside}
+See [git-init](https://git-scm.com/docs/git-init) for reference.
+:::
+
+```{.sh code-line-numbers="1,3"}
+.../example_project$ git init
+Initialized empty Git repository in /.../example_project/.git/
+.../example_project$ ls -a
+. .. .git
+```
+
+Erzeugt `.git` Ordner, der das *Repository* enthält
+
+## `git clone`
+
+::: {.aside}
+See [git-clone](https://git-scm.com/docs/git-clone) for reference.
+:::
+
+```{.sh code-line-numbers="1,6,8,9"}
+.../Projects$ git clone URL
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+.../Projects$ ls
+example_project
+.../Projects$ cd example_project/
+.../Projects/example_project$ ls -a
+. .. .git README.md
+```
+
+Erzeugt eine Arbeitskopie von einem Repositiory,
+sowie darin enthalten eine Kopie des gesamten Repositories im `.git` Ordner.
+
+## `git add`
+
+::: {.aside}
+See [git-add](https://git-scm.com/docs/git-add) for reference.
+:::
+
+```{.sh}
+git add README.md
+```
+
+## `git commit`
+
+::: {.aside}
+See [git-commit](https://git-scm.com/docs/git-commit) for reference.
+:::
+
+```{.sh}
+git commit -m "Added README"
+```
+
+## `git push`
+
+::: {.aside}
+See [git-push](https://git-scm.com/docs/git-push) for reference.
+:::
+
+```{.sh}
+git push
+```
+
+## `git pull`
+
+::: {.aside}
+See [git-pull](https://git-scm.com/docs/git-pull) for reference.
+:::
+
+```{.sh}
+git pull
+```
+
+
+# Git in der Praxis
+
+## .gitignore
+
+## Local vs. Remote First
+
+:::: {.columns}
+::: {.column}
+### Local First
+
+* `git init`
+* `git commit -m "Initial commit"`
+* Create remote repository on, e.g., GitHub, GitLab, etc.
+* Copy repository URL
+* `git remote add origin URL`
+* `git push --set-upstream origin main`
+
+:::
+::: {.column}
+### Remote First
+
+* Create remote repository on, e.g., GitHub, GitLab, etc.
+* Copy repository URL
+* `git clone URL`
+:::
+::::
+
+## Neues Repository anlegen
+
+## Ersten Commit machen
+
+## 

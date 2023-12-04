@@ -1,0 +1,84 @@
+---
+title: CSS 4.3
+subtitle: Transitions and Animations
+author: Niels Hoppe \<[n.hoppe\@bergemann-hoehne.com](mailto:n.hoppe@bergemann-hoehne.com){.email}\>
+date: 2023-12-05
+#jupyter: python3
+format: revealjs
+---
+
+# Agenda
+
+See also [Using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations) and [Using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions) on MDN.
+
+## Transitions vs. Animations
+
+Ähnlich, aber nicht das Gleiche!
+
+:::: {.columns}
+::: {.column}
+### Transition
+
+* Einfacher Übergang von einem Anfangszustand zu einem Endzustand
+* Benötigt einen Auslöser (sog. trigger)
+:::
+
+::: {.column}
+### Animation
+
+* Komplexer Ablauf über mehrere Zustände (sog. keyframes)
+* Kann selbständig und wiederholt ablaufen
+:::
+::::
+
+## Trigger {.smaller}
+
+::: {.aside}
+See also [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) on MDN for reference.
+:::
+
+Trigger sind in erster Linie Benutzerinteraktionen,
+die sich in sog. Pseudo-Klassen widerspiegeln,
+können aber auch durch JavaScript ausgelöst werden.
+
+| Aktion | Pseudo-Klasse |
+|--------|---------------|
+| Mouseover | `:hover` |
+| Klick | `:active` |
+| Auswahl (z.B. mit Tab-Taste) | `:focus` |
+| Auswahl einer Check- oder Radiobox | `:checked` |
+| Ungültige Eingabe | `:user-invalid` |
+
+## Property
+
+Was soll animiert werden?
+
+##
+
+```{.css}
+.box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #0000ff;
+  transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+
+.box:hover {
+  background-color: #ffcccc;
+  width: 200px;
+  height: 200px;
+  rotate: 180deg;
+}
+```
+
+# Allgemeines Vorgehen für Animationen:
+
+1. Einzelne Zustände separat bauen
+2. Geeignete Transformationen finden

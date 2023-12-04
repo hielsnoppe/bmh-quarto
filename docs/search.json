@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#naive-code-versionierung",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#naive-code-versionierung",
+    "title": "Code Versionierung",
+    "section": "Naive Code Versionierung",
+    "text": "Naive Code Versionierung"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#probleme-und-lösungen",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#probleme-und-lösungen",
+    "title": "Code Versionierung",
+    "section": "Probleme und Lösungen",
+    "text": "Probleme und Lösungen"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#version-und-commit",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#version-und-commit",
+    "title": "Code Versionierung",
+    "section": "Version und Commit",
+    "text": "Version und Commit"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#working-copy-arbeitskopie",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#working-copy-arbeitskopie",
+    "title": "Code Versionierung",
+    "section": "Working Copy (Arbeitskopie)",
+    "text": "Working Copy (Arbeitskopie)"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#staging-area-index",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#staging-area-index",
+    "title": "Code Versionierung",
+    "section": "Staging Area / Index",
+    "text": "Staging Area / Index"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#repository",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#repository",
+    "title": "Code Versionierung",
+    "section": "Repository",
+    "text": "Repository"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#remote",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#remote",
+    "title": "Code Versionierung",
+    "section": "Remote",
+    "text": "Remote"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-init",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-init",
+    "title": "Code Versionierung",
+    "section": "git init",
+    "text": "git init\n\n.../example_project$ git init\nInitialized empty Git repository in /.../example_project/.git/\n.../example_project$ ls -a\n. .. .git\nErzeugt .git Ordner, der das Repository enthält\n\nSee git-init for reference."
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-clone",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-clone",
+    "title": "Code Versionierung",
+    "section": "git clone",
+    "text": "git clone\n\n.../Projects$ git clone URL\nremote: Enumerating objects: 3, done.\nremote: Counting objects: 100% (3/3), done.\nremote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\nReceiving objects: 100% (3/3), done.\n.../Projects$ ls\nexample_project\n.../Projects$ cd example_project/\n.../Projects/example_project$ ls -a\n. .. .git README.md\nErzeugt eine Arbeitskopie von einem Repositiory, sowie darin enthalten eine Kopie des gesamten Repositories im .git Ordner.\n\nSee git-clone for reference."
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-add",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-add",
+    "title": "Code Versionierung",
+    "section": "git add",
+    "text": "git add\n\ngit add README.md\n\nSee git-add for reference."
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-commit",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-commit",
+    "title": "Code Versionierung",
+    "section": "git commit",
+    "text": "git commit\n\ngit commit -m \"Added README\"\n\nSee git-commit for reference."
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-push",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-push",
+    "title": "Code Versionierung",
+    "section": "git push",
+    "text": "git push\n\ngit push\n\nSee git-push for reference."
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-pull",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#git-pull",
+    "title": "Code Versionierung",
+    "section": "git pull",
+    "text": "git pull\n\ngit pull\n\nSee git-pull for reference."
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#gitignore",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#gitignore",
+    "title": "Code Versionierung",
+    "section": ".gitignore",
+    "text": ".gitignore"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#local-vs.-remote-first",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#local-vs.-remote-first",
+    "title": "Code Versionierung",
+    "section": "Local vs. Remote First",
+    "text": "Local vs. Remote First\n\n\nLocal First\n\ngit init\ngit commit -m \"Initial commit\"\nCreate remote repository on, e.g., GitHub, GitLab, etc.\nCopy repository URL\ngit remote add origin URL\ngit push --set-upstream origin main\n\n\nRemote First\n\nCreate remote repository on, e.g., GitHub, GitLab, etc.\nCopy repository URL\ngit clone URL"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#neues-repository-anlegen",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#neues-repository-anlegen",
+    "title": "Code Versionierung",
+    "section": "Neues Repository anlegen",
+    "text": "Neues Repository anlegen"
+  },
+  {
+    "objectID": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#ersten-commit-machen",
+    "href": "notebooks/06_Coding_Policies_Code_Versionierung/01_Git.html#ersten-commit-machen",
+    "title": "Code Versionierung",
+    "section": "Ersten Commit machen",
+    "text": "Ersten Commit machen"
+  },
+  {
+    "objectID": "notebooks/09_CSS/08_CSS_4.3.html#transitions-vs.-animations",
+    "href": "notebooks/09_CSS/08_CSS_4.3.html#transitions-vs.-animations",
+    "title": "CSS 4.3",
+    "section": "Transitions vs. Animations",
+    "text": "Transitions vs. Animations\nÄhnlich, aber nicht das Gleiche!\n\n\nTransition\n\nEinfacher Übergang von einem Anfangszustand zu einem Endzustand\nBenötigt einen Auslöser (sog. trigger)\n\n\nAnimation\n\nKomplexer Ablauf über mehrere Zustände (sog. keyframes)\nKann selbständig und wiederholt ablaufen"
+  },
+  {
+    "objectID": "notebooks/09_CSS/08_CSS_4.3.html#trigger",
+    "href": "notebooks/09_CSS/08_CSS_4.3.html#trigger",
+    "title": "CSS 4.3",
+    "section": "Trigger",
+    "text": "Trigger\n\nTrigger sind in erster Linie Benutzerinteraktionen, die sich in sog. Pseudo-Klassen widerspiegeln, können aber auch durch JavaScript ausgelöst werden.\n\n\n\nAktion\nPseudo-Klasse\n\n\n\n\nMouseover\n:hover\n\n\nKlick\n:active\n\n\nAuswahl (z.B. mit Tab-Taste)\n:focus\n\n\nAuswahl einer Check- oder Radiobox\n:checked\n\n\nUngültige Eingabe\n:user-invalid\n\n\n\n\nSee also Pseudo-classes on MDN for reference."
+  },
+  {
+    "objectID": "notebooks/09_CSS/08_CSS_4.3.html#property",
+    "href": "notebooks/09_CSS/08_CSS_4.3.html#property",
+    "title": "CSS 4.3",
+    "section": "Property",
+    "text": "Property\nWas soll animiert werden?"
+  },
+  {
+    "objectID": "notebooks/09_CSS/08_CSS_4.3.html#section",
+    "href": "notebooks/09_CSS/08_CSS_4.3.html#section",
+    "title": "CSS 4.3",
+    "section": "",
+    "text": ".box {\n  border-style: solid;\n  border-width: 1px;\n  display: block;\n  width: 100px;\n  height: 100px;\n  background-color: #0000ff;\n  transition:\n    width 2s,\n    height 2s,\n    background-color 2s,\n    rotate 2s;\n}\n\n.box:hover {\n  background-color: #ffcccc;\n  width: 200px;\n  height: 200px;\n  rotate: 180deg;\n}"
+  }
+]

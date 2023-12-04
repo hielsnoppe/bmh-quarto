@@ -1,0 +1,9 @@
+---
+title: CSS 4.4.1
+subtitle: Variablen & Funktionen
+author: Niels Hoppe \<[n.hoppe\@bergemann-hoehne.com](mailto:n.hoppe@bergemann-hoehne.com){.email}\>
+#jupyter: python3
+format: revealjs
+---
+
+# Agenda

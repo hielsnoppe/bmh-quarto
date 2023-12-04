@@ -1,0 +1,9 @@
+---
+title: Mockups 1.2
+subtitle: More Mockups
+author: Niels Hoppe \<[n.hoppe\@bergemann-hoehne.com](mailto:n.hoppe@bergemann-hoehne.com){.email}\>
+#jupyter: python3
+format: revealjs
+---
+
+# Agenda
